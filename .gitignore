@@ -1,4 +1,12 @@
 *.log
 *.pot
-*.pyc
+*.py[co]
+*.sw[po]
+*.db
+*.bak
+*.orig
+*~
+.project
+.pydevproject
 local_settings.py
+venv/
