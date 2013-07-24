@@ -12,7 +12,7 @@ if ON_OPENSHIFT:
     DEBUG = False
 else:
     DEBUG = True
-TEMPLATE_DEBUG = DEBUG
+TEMPLATE_DEBUG = DEBUG = True
 
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
