@@ -41,4 +41,4 @@ $PYTHON "$OPENSHIFT_REPO_DIR"wsgi/openshift/manage.py collectstatic --noinput
 
 echo "Executing 'ln -s $OPENSHIFT_HOMEDIRpython-2.7/repo/wsgi/openshift/media media'"
 cd "$OPENSHIFT_HOMEDIR"python-2.7/repo/wsgi/static/
-ln -s "$OPENSHIFT_HOMEDIR"python-2.7/repo/wsgi/openshift/media media
+ln -s "$OPENSHIFT_HOMEDIR"python-2.7/repo/wsgi/openshift/openshift/media media
